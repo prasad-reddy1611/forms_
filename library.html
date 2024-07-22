@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+    <header><h1>College Addmission Form</h1><hr></header>
+    <form>
+        <p>*fill all the elements</p>
+        <h3>Name</h3>
+        <label for="fname"></label> 
+            <input type="text" id="fname" name="fname" placeholder="enter your name">
+            <br>
+        <h3>Gender</h3>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="female">Female</label>
+        <h3>Date of birth</h3>
+        <input type="date" name="dob" id="dob">
+        <div class="place">
+            <div class="country">
+                <h3 class="country">Country</h3>
+                <select>
+                    <option value="none">select</option>
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="China">China</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Germeny">Germeny</option>
+                </select>
+            </div>
+            <div class="state">
+                <h3 class="state">State</h3>
+                <select>
+                    <option value="none">select</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="TamilNadu">TamilNadu</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                </select>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
