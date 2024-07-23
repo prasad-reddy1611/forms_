@@ -19,11 +19,13 @@
         <label for="male">Male</label>
         <input type="radio" id="female" value="female" name="gender">
         <label for="female">Female</label>
-        <h3>Date of birth</h3>
+        <input type="radio" id="others" value="others" name="gender">
+        <label for="others">Others</label><br><br>
+        <h3 style="line-height: 1px;">Date of birth</h3>
         <input type="date" name="dob" id="dob">
         <div class="place">
             <div class="country">
-                <h3 class="country">Country</h3>
+                <h3>Country</h3>
                 <select>
                     <option value="none">select</option>
                     <option value="India">India</option>
@@ -34,7 +36,7 @@
                 </select>
             </div>
             <div class="state">
-                <h3 class="state">State</h3>
+                <h3>State</h3>
                 <select>
                     <option value="none">select</option>
                     <option value="Karnataka">Karnataka</option>
@@ -43,6 +45,12 @@
                     <option value="Kerala">Kerala</option>
                     <option value="Rajasthan">Rajasthan</option>
                 </select>
+            </div>
+        </div>
+        <div id="contact">
+            <div>
+                <h3>Mobile No.</h3>
+                <input type="text" name="mobile_no" placeholder="(000-000-0000)">
             </div>
         </div>
     </form>

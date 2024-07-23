@@ -2,5 +2,19 @@
     display: flex;
 }
 .state{
-    margin-left: 50px;
+    padding-left: 50px;
+}
+.country{
+    
+}
+input{
+    height: 2em;
+    border-radius: 7px;
+
+}
+select{
+    height: 3em;
+    border-radius: 7px;
+    border-radius: 10px;
+    width:200px;
 }
