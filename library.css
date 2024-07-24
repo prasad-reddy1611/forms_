@@ -1,3 +1,12 @@
+*{
+    background-color: #EED7C5;
+}
+header{
+    background-color: #554348;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
 .place{
     display: flex;
 }
@@ -16,5 +25,14 @@ select{
     height: 3em;
     border-radius: 7px;
     border-radius: 10px;
-    width:200px;
+    width:150px;
+}
+select:hover{
+    background-color: #554348;
+}
+.contact{
+    display: flex;
+}
+.emergency_no{
+    padding-left: 50px;
 }
