@@ -1,5 +1,5 @@
 *{
-    background-color: #EED7C5;
+    background-color: #EEF5DB;
 }
 header{
     background-color: #554348;
@@ -11,15 +11,14 @@ header{
     display: flex;
 }
 .state{
-    padding-left: 50px;
-}
-.country{
-    
+    padding-left: 75px;
 }
 input{
     height: 2em;
     border-radius: 7px;
-
+}
+input:hover{
+    background-color: #554348;
 }
 select{
     height: 3em;
@@ -35,4 +34,10 @@ select:hover{
 }
 .emergency_no{
     padding-left: 50px;
+}
+.button{
+    text-align: center;
+}
+button:hover{
+    background-color: #554348;
 }
