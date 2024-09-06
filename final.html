@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="final.css">
-    <script src="final.js"></script>
+    
 </head>
 <body>
+    <script src="final.js"></script>
     <header>College Addmission Form<hr></header>
     <form name="forms" action="#">
         <!-- <p>*fill all the elements</p> -->
         <h3>Student Name</h3>
+        <div>
             <input type="text" id="fname" name="fname" placeholder="First name" >
-            <input type="text" id="lname" name="lname" placeholder="Last name" required>
+            <!-- <span id="fspan"></span> -->
+        </div>
+        <div>
+            <input type="text" id="lname" name="lname" placeholder="Last name" >
+        </div>
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="username" placeholder="Enter username" /> <br /> <br /> 
+            <span id="usernameError" style="color: red;"> </span><br /><br/>
+            </div>
         <h3>Gender</h3>
         <input type="radio" id="male" value="male" name="gender">
         <label for="male">Male</label>
@@ -50,16 +61,17 @@
         <div class="contact">
             <div class="mobile_no">
                 <h3>Mobile No.</h3>
-                <input type="text" name="mobile_no" placeholder="(000-000-0000)" required>
+                <input type="text" name="mobile_no" placeholder="(000-000-0000)" >
             </div>
             <div class="emergency_no">
                 <h3>Emergency No.</h3>
-                <input type="text" name="emergency_no" placeholder="(000-000-0000)" required>
+                <input type="text" name="emergency_no" placeholder="(000-000-0000)" ><br><br>
             </div>
         </div>
-        <div>
-            <h3>E-mail</h3>
-            <input type="email" name="email" placeholder="enter your mail">
+        <div class="eemail">
+            <label for="email"><b>Email</b></label><br><br>
+            <input type="email" id="email" name="email" placeholder="enter your mail">
+            <span class="error" id="emailerror" name="emailerror"></span>
         </div>    
             <h3>Course</h3>
             <select id="course" name="course">

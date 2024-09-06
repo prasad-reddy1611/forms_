@@ -49,3 +49,6 @@ button{
 #lname{
     margin-left: 40px;
 }
+#email{
+    display:block;
+}
