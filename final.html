@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="final.css">
+    <script src="final.js"></script>
 </head>
 <body>
     <header>College Addmission Form<hr></header>
-    <form action="#">
-        <p>*fill all the elements</p>
+    <form name="forms" action="#">
+        <!-- <p>*fill all the elements</p> -->
         <h3>Student Name</h3>
-            <input type="text" id="fname" name="fname" placeholder="First name">
-            <input type="text" id="fname" name="fname" placeholder="Last name">
+            <input type="text" id="fname" name="fname" placeholder="First name" >
+            <input type="text" id="lname" name="lname" placeholder="Last name" required>
         <h3>Gender</h3>
         <input type="radio" id="male" value="male" name="gender">
         <label for="male">Male</label>
@@ -25,7 +26,7 @@
         <div class="place">
             <div class="country">
                 <h3>Country</h3>
-                <select>
+                <select required>
                     <option value="none">Select</option>
                     <option value="India">India</option>
                     <option value="America">America</option>
@@ -36,7 +37,7 @@
             </div>
             <div class="state">
                 <h3>State</h3>
-                <select>
+                <select required>
                     <option value="none">Select</option>
                     <option value="Karnataka">Karnataka</option>
                     <option value="Delhi">Delhi</option>
@@ -49,11 +50,11 @@
         <div class="contact">
             <div class="mobile_no">
                 <h3>Mobile No.</h3>
-                <input type="text" name="mobile_no" placeholder="(000-000-0000)">
+                <input type="text" name="mobile_no" placeholder="(000-000-0000)" required>
             </div>
             <div class="emergency_no">
                 <h3>Emergency No.</h3>
-                <input type="text" name="emergency_no" placeholder="(000-000-0000)">
+                <input type="text" name="emergency_no" placeholder="(000-000-0000)" required>
             </div>
         </div>
         <div>
@@ -74,7 +75,7 @@
         <input type="radio" value="no" name="language" id="no">
             <label for="no">No</label><br><br>
         <div class="button">
-            <button>Submit</button>
+            <button id="end">Submit</button>
         </div>
     </form>
 </body>

@@ -18,7 +18,7 @@ input{
     border-radius: 7px;
 }
 input:hover{
-    background-color: #554348;
+    background-color: #EEF5DB;
 }
 select{
     height: 3em;
@@ -27,7 +27,7 @@ select{
     width:150px;
 }
 select:hover{
-    background-color: #554348;
+    background-color: #EEF5DB;
 }
 .contact{
     display: flex;
@@ -40,4 +40,12 @@ select:hover{
 }
 button:hover{
     background-color: #554348;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+}
+#lname{
+    margin-left: 40px;
 }
